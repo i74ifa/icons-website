@@ -21,15 +21,15 @@ function importIcons(r, attrs) {
 }
 
 const icons1 = importIcons(
-  require.context(`heroicons/24/outline/`, false, /\.svg$/),
-  'class="w-6 h-6"'
+  require.context(`@i74ifa/icons/24/outline/`, false, /\.svg$/),
+  'class="w-16 h-16"'
 )
 const icons2 = importIcons(
-  require.context(`heroicons/24/solid/`, false, /\.svg$/),
-  'class="w-6 h-6"'
+  require.context(`@i74ifa/icons/24/solid/`, false, /\.svg$/),
+  'class="w-16 h-16"'
 )
 const icons3 = importIcons(
-  require.context(`heroicons/20/solid/`, false, /\.svg$/),
+  require.context(`@i74ifa/icons/20/solid/`, false, /\.svg$/),
   'class="w-5 h-5"'
 )
 
